@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export const CarouselHome = () =>{
-    return (
-        function ControlledCarousel() {
+
+export const ControlledCarousel = () =>{
+
             const [index, setIndex] = useState(0);
           
             const handleSelect = (selectedIndex, e) => {
@@ -14,7 +16,7 @@ export const CarouselHome = () =>{
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
+                    src="https://www.instagram.com/p/CXTmSdwLFLY/"
                     alt="First slide"
                   />
                   <Carousel.Caption>
@@ -25,7 +27,7 @@ export const CarouselHome = () =>{
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
+                    src="pic2.jpg"
                     alt="Second slide"
                   />
           
@@ -37,7 +39,7 @@ export const CarouselHome = () =>{
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
+                    src="/pic3.jpg"
                     alt="Third slide"
                   />
           
@@ -53,6 +55,5 @@ export const CarouselHome = () =>{
           }
           
         //   render(<ControlledCarousel />);
-    )
-}
+
 
