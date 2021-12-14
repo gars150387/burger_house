@@ -16,7 +16,7 @@ export const ControlledCarousel = () =>{
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="https://www.instagram.com/p/CXTmSdwLFLY/"
+                    src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Smash-Burgers_EXPS_TOHcom20_246232_B10_06_10b.jpg"
                     alt="First slide"
                   />
                   <Carousel.Caption>
@@ -27,7 +27,7 @@ export const ControlledCarousel = () =>{
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="https://www.instagram.com/p/CWoiKoeL7Qt/"
+                    src="https://www.recipetineats.com/wp-content/uploads/2019/08/Avocado-Chicken-Burgers_9.jpg"
                     alt="Second slide"
                   />
           
@@ -39,7 +39,7 @@ export const ControlledCarousel = () =>{
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="https://www.instagram.com/p/CSc9Cker-LI/"
+                    src="https://images.ricardocuisine.com/services/recipes/bruger.png"
                     alt="Third slide"
                   />
           
