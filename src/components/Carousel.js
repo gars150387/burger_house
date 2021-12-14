@@ -27,7 +27,7 @@ export const ControlledCarousel = () =>{
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="pic2.jpg"
+                    src="https://www.instagram.com/p/CWoiKoeL7Qt/"
                     alt="Second slide"
                   />
           
@@ -39,7 +39,7 @@ export const ControlledCarousel = () =>{
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="/pic3.jpg"
+                    src="https://www.instagram.com/p/CSc9Cker-LI/"
                     alt="Third slide"
                   />
           
