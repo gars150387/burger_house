@@ -1,8 +1,8 @@
 import React from "react";
-import { CarouselHome } from "../components/Carousel";
+import { ControlledCarousel } from "../components/Carousel";
 
 export const Home = () => {
     return (
-        <CarouselHome />
+        <ControlledCarousel />
     )
 }
