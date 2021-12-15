@@ -23,6 +23,7 @@ export const NavbarMain = ()=>{
           <Nav.Link href="#action1">Inicio</Nav.Link>
           <Nav.Link href="#action2">Quienes Somos</Nav.Link>
           <Nav.Link href="#action2">Quienes Somos</Nav.Link>
+          <Nav.Link href="#action2">Quienes Somos</Nav.Link>
           <NavDropdown title="Menu" id="offcanvasNavbarDropdown">
             <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
