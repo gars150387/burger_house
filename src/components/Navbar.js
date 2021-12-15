@@ -1,11 +1,13 @@
 import React from 'react'
 import { Navbar, Container, Offcanvas,NavDropdown,Form, FormControl, Button, Nav } from 'react-bootstrap'
+import '../images/logo.JPG'
 
 export const NavbarMain = ()=>{
     return (
         <Navbar sticky="top" bg="dark" expand={false}>
   <Container fluid>
-    <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+    <Navbar.Brand href="#"><img variant="top" id="logoCompania" className="" style={{height: "80px", border: "rounded", marginLeft: "50px"}} src={require("../images/logo.JPG").default} alt="logo de compania"/>
+</Navbar.Brand>
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
       id="offcanvasNavbar"
