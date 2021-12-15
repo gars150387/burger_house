@@ -8,18 +8,20 @@ export const NavbarMain = ()=>{
   <Container fluid>
     <Navbar.Brand href="#"><img variant="top" id="logoCompania" className="" style={{height: "80px", border: "rounded", marginLeft: "50px"}} src={require("../images/logo.JPG").default} alt="logo de compania"/>
 </Navbar.Brand>
-    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+    <Navbar.Toggle aria-controls="offcanvasNavbar" style={{color: "white"}} />
     <Navbar.Offcanvas
+      style={{color: "white"}}
       id="offcanvasNavbar"
       aria-labelledby="offcanvasNavbarLabel"
       placement="end"
     >
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+        <Offcanvas.Title id="offcanvasNavbarLabel">Burger House</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Nav className="justify-content-end flex-grow-1 pe-3">
           <Nav.Link href="#action1">Inicio</Nav.Link>
+          <Nav.Link href="#action2">Quienes Somos</Nav.Link>
           <Nav.Link href="#action2">Quienes Somos</Nav.Link>
           <NavDropdown title="Menu" id="offcanvasNavbarDropdown">
             <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
