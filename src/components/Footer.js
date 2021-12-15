@@ -1,17 +1,18 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import { BsInstagram } from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa'
+import {FiTwitter} from 'react-icons/fi'
+import {ImWhatsapp} from 'react-icons/im'
 
-export const Footer =()=>{
+export const Footer = () => {
     return (
-        <Card>
-  <Card.Header>Featured</Card.Header>
-  <Card.Body>
-    <Card.Title>Special title treatment</Card.Title>
-    <Card.Text>
-      With supporting text below as a natural lead-in to additional content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+        <Card id="footer" className="bg-dark">
+            <div className="">
+                <BsInstagram className="" style={{ color: "white", marginRight: "10px" }} /><FaFacebookF className="" style={{ color: "white", marginRight: "10px"  }} />
+                <FiTwitter style={{ color: "white", marginRight: "10px" }} /> <ImWhatsapp style={{ color: "white"}}/>
+            </div>
+            <Card.Header className="text-end" style={{ color: "white" }}>Copyrights by Burguer House</Card.Header>
+        </Card>
     )
 }
